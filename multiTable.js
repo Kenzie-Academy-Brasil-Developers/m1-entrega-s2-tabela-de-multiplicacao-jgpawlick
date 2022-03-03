@@ -13,19 +13,14 @@ function multiplyTable(number) {
 
     for (let counterX = 0; counterX <= number; counterX++) {
         myTable.push([])
-        //console.log(myTable)
+
         for (let counterY = 0; counterY <= number; counterY++) {
             myTable[counterX].push(counterX * counterY)
-            //console.log(myTable)
+
         }
 
-
-        /*while (myTable.push([])) {
-            myTable[counterX].push(counterX * counterX)
-
-            continue
-        }*/
     }
     console.table(myTable)
+    return myTable
 
 }
